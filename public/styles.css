@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 body{
+  background: url("./assets/pics/6ce5f846da78048fbc7d2b7807ad6ad3.webp");
   margin: 20px 40px;
   font-size: 1.2rem;
   letter-spacing: 1px;
-  background: #fafafa;
+  background-repeat: no-repeat;
+  /* background:#303F9F; */
 }
 h1, h2, h3, h4, ul, li, a, p, input, label, button, div, footer{
   margin: 0;
@@ -71,7 +73,7 @@ label{
 button{
   margin-top: 30px;
   border-radius: 36px;
-  background: #FEE996;
+  background:#3D5AFE;
   border:0;
   text-transform: uppercase;
   font-weight: 700;
@@ -79,6 +81,7 @@ button{
   display: block;
   padding: 10px 16px;
   letter-spacing: 2px;
+  color:#fafafa
 }
 .error{
   color: #ff0099;
@@ -213,4 +216,8 @@ footer{
   outline: none;
   padding: 12px 20px;
   border-radius: 4px;
+}
+
+@media screen {
+  
 }
