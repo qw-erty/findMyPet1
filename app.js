@@ -44,4 +44,6 @@ app.get('/blog-details', (req, res) => res.render('newTemp/blog-details'));
 app.get('/blog', (req, res) => res.render('newTemp/blog'));
 app.get('/portfolio-details', (req, res) => res.render('newTemp/portfolio-details'));
 app.get('/sample-inner-page', (req, res) => res.render('newTemp/sample-inner-page'));
+app.get('/login', (req, res) => res.render('partials/login'));
+
 
