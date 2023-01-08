@@ -4,6 +4,7 @@ const cors = require("cors");
 const path = require("path");
 
 const authRoutes = require('./routes/authRoutes');
+const mySecret = process.env['MONGO_URL']
 
 const cookieParser = require('cookie-parser');
 const { requireAuth, checkUser } = require('./middleware/authMiddleware');
